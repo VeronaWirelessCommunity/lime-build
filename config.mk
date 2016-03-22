@@ -1,14 +1,14 @@
 DEV ?=
 OWRT_SCM = git clone git://git.openwrt.org/15.05/openwrt.git
-LIME_GIT_RW = git@github.com:libre-mesh/lime-packages.git
-LIME_GIT_RO = git://github.com/libre-mesh/lime-packages.git
+LIME_GIT_RW = git@github.com:VeronaWirelessCommunity/lime-packages.git
+LIME_GIT_RO = https://github.com/VeronaWirelessCommunity/lime-packages.git
 LIME_GIT_BRANCH ?= develop
 BUILD_DIR = build
 CONFIG_DIR = configs
 MY_CONFIGS = $(BUILD_DIR)/configs
 IMAGES = images
 SHELL = bash
-COMMUNITY ?= LiMe
+COMMUNITY ?= NinuxVerona
 SCRIPTS_DIR= scripts
 LIME_PKG_DIR = lime-packages
 TBUILD ?= develop
