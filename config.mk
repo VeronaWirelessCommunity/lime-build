@@ -12,4 +12,4 @@ SHELL = bash
 COMMUNITY ?= NinuxVerona
 SCRIPTS_DIR= scripts
 LIME_PKG_DIR = lime-packages
-TBUILD ?= trunk
+TBUILD ?= chaos_calmer
